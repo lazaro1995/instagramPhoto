@@ -1,0 +1,48 @@
+
+.flex-container {
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+.flex-item { 
+  align-self: center;
+  background-color: white;
+  width: 30%;
+  margin: 40px;
+  text-align: left;
+  line-height: 30px;
+  font-size: 10px;
+}
+p,h5{
+    margin-left: 20px;
+}
+.pinWrapper {
+    display: block;
+    padding: 10;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  .pinWrapper p {
+    font-size: .8em;
+  }
+  
+  
+  .pinImage img {
+    width: 100%;
+  }
+  
+  
+  /* FLEXBOX */
+  
+  .pinWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  

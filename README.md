@@ -1,2 +1,2 @@
 # checkout instagram feed
-## https://github.com/lazaro1995/instagramPhoto
+## https://lazaro1995.github.io/instagramPhoto/
